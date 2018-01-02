@@ -14,7 +14,7 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <Route path="/" component={LcpLanding}/>
+                    <Route path="/" exact component={LcpLanding}/>
                     <Route path="/admin" component={AdminPage}/>
                 </div>
             </Router>
