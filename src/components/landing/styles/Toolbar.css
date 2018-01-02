@@ -1,0 +1,116 @@
+.lcp-toolbar {
+    padding: 20px 0 10px 0 ;
+    background: transparent;
+    font-family: Poppins, serif;
+    z-index: 1;
+}
+.lcp-toolbar.newcolor {
+    background: RGBA(36, 50, 54, 1.00);
+}
+
+.lcp-toolbar a {
+    cursor: pointer;
+}
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.shortcut-toolbar {
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+.shortcut-toolbar.othercolor {
+    color: white;
+}
+
+.shortcut-toolbar:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #FFF3FB , 0 0 70px #FFF3FB , 0 0 80px #FFF3FB , 0 0 100px #FFF3FB ;
+
+}
+.shortcut-toolbar.othercolor:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1);
+
+}
+.signin {
+    background: #8171EE center no-repeat;
+    background-size: 30px 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: -15px 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.signin:hover {
+    background-size: 30px 30px;
+}
+.signin:active {
+    background: #5F4FC9 center no-repeat;
+    background-size: 30px 30px;
+    transform: perspective(250px) scale3d(1, 1, 1) translateY(3%);
+}
+.buynow {
+    border-radius: 30px;
+    background: #FF3056 center no-repeat;
+    margin: 0 10% 0 10%;
+    padding: 5% 0 5% 0;
+    color: white;
+    font-family: Quicksand, serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.buynow:hover {
+    animation: animatedbuynow 0.7s linear infinite;
+    -ms-animation: animatedbuynow 0.7s linear infinite;
+    -moz-animation: animatedbuynow 0.7s linear infinite;
+    -webkit-animation: animatedbuynow 0.7s linear infinite;
+}
+@keyframes animatedsignin {
+    from { background-size: 30px 30px; }
+    50% {background-size: 35px 35px;}
+    to { background-size: 30px 30px; }
+}
+@-webkit-keyframes animatedsignin {
+    from { background-size: 30px 30px; }
+    50% {background-size: 35px 35px;}
+    to { background-size: 30px 30px; }
+}
+@-ms-keyframes animatedsignin {
+    from { background-size: 30px 30px; }
+    50% {background-size: 35px 35px;}
+    to { background-size: 30px 30px; }
+}
+@-moz-keyframes animatedsignin {
+    from { background-size: 30px 30px; }
+    50% {background-size: 35px 35px;}
+    to { background-size: 30px 30px; }
+}
+
+@keyframes animatedbuynow {
+    from { background-color: #FF3056; }
+    50% {background-color: #4F485A;}
+    to { background-color: #EF8072; }
+}
+@-webkit-keyframes animatedbuynow {
+    from { background-color: #FF3056; }
+    50% {background-color: #4F485A;}
+    to { background-color: #EF8072; }
+}
+@-ms-keyframes animatedbuynow {
+    from { background-color: #FF3056; }
+    50% {background-color: #4F485A;}
+    to { background-color: #EF8072; }
+}
+@-moz-keyframes animatedbuynow {
+    from { background-color: #FF3056; }
+    50% {background-color: #4F485A;}
+    to { background-color: #EF8072; }
+}
+
+.text_align {
+    text-align: center;
+}

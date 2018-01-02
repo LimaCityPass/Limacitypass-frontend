@@ -1,0 +1,167 @@
+@keyframes animatedBackgroundHowto {
+    from { background-position: left; }
+    50% {background-position: right;}
+    to { background-position: left; }
+}
+@-webkit-keyframes animatedBackgroundHowto {
+    from { background-position: left; }
+    50% {background-position: right;}
+    to { background-position: left; }
+}
+@-ms-keyframes animatedBackgroundHowto {
+    from { background-position: left; }
+    50% {background-position: right;}
+    to { background-position: left; }
+}
+@-moz-keyframes animatedBackgroundHowto {
+    from { background-position: left; }
+    50% {background-position: right;}
+    to { background-position: left; }
+}
+
+.containercontenthowtouse {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    background: center no-repeat;
+    animation: animatedBackgroundHowto 100s linear infinite;
+    -ms-animation: animatedBackgroundHowto 100s linear infinite;
+    -moz-animation: animatedBackgroundHowto 100s linear infinite;
+    -webkit-animation: animatedBackgroundHowto 100s linear infinite;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .containercontenthowtouse {
+        background-size: cover;
+    }
+}
+
+.center-elements {
+    align-content: center;
+    display: inline-grid;
+    text-align: center;
+}
+
+.bottomalign {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.title {
+    font-family: Poppins, serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .title {
+        padding-top: 25px;
+        padding-bottom: 15px;
+
+    }
+}
+
+.inline {
+    display: block;
+    width: 100%;
+}
+
+.divimagesHowtouse {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width: 100%;
+}
+
+.imagesHowtouse {
+    width: 80%;
+}
+
+.withoutmarpadd {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-family: Quicksand, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10%;
+}
+
+.titlehowtouse {
+    font-family: Poppins, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    font-size: 24px;
+    align-content: center;
+    text-align: center;
+    color: #FF9548;
+}
+
+.divline {
+    background: #8F81EA;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.iloveimage {
+    height: 18px;
+}
+
+.verticalalign {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hashtag {
+    font-family: Quicksand, serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hashtagcontent {
+    font-family: Quicksand, serif;
+    font-size: 18px;
+    font-weight:200;
+}
+
+@media only screen and (max-width: 360px) {
+    .titlehowtouse {
+        font-size: 14px;
+        font-weight: 900;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .content {
+        padding-bottom: 5%;
+    }
+    .iloveimage {
+        height: 17px;
+    }
+    .hashtag {
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .hashtagcontent {
+        font-size: 13px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .divline {
+        margin: -5px 0 10px 0;
+    }
+}
+

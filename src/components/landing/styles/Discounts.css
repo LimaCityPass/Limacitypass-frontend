@@ -1,0 +1,79 @@
+@keyframes animatedBackgroundDiscounts {
+    from { background-position: right; }
+    50% {background-position: left;}
+    to { background-position: right; }
+}
+@-webkit-keyframes animatedBackgroundDiscounts {
+    from { background-position: right; }
+    50% {background-position: left;}
+    to { background-position: right; }
+}
+@-ms-keyframes animatedBackgroundDiscounts {
+    from { background-position: right; }
+    50% {background-position: left;}
+    to { background-position: right; }
+}
+@-moz-keyframes animatedBackgroundDiscounts {
+    from { background-position: right; }
+    50% {background-position: left;}
+    to { background-position: right; }
+}
+.containerdiscounts {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    animation: animatedBackgroundDiscounts 70s linear infinite;
+    -ms-animation: animatedBackgroundDiscounts 70s linear infinite;
+    -moz-animation: animatedBackgroundDiscounts 70s linear infinite;
+    -webkit-animation: animatedBackgroundDiscounts 70s linear infinite;
+}
+
+@media only screen and (max-width: 360px) {
+    .containerdiscounts {
+        background-size: cover;
+    }
+}
+
+.titlediscounts {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: -40px;
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .titlediscounts {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.withoutmarpadd {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: Poppins, serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .title {
+        padding-top: 24px;
+        padding-bottom: 15px;
+    }
+}
+
+.inline {
+    display: block;
+    width: 100%;
+}

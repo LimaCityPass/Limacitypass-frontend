@@ -1,0 +1,29 @@
+.background {
+    width: 100%;
+    height: -webkit-fill-available;
+    text-transform: uppercase;
+    background-size: cover;
+    display: table;
+}
+.logofront {
+    display: table-cell;
+    vertical-align: middle;
+}
+.logofront.fix {
+    margin: auto;
+    position: fixed;
+    top: 2.5px; left: 0; right: 0;
+    height: 0px;
+    z-index: 2;
+}
+.logofront.fix:hover {
+    -webkit-filter: drop-shadow(0 0 10px rgba(255,255,255,1))  drop-shadow(0 0 20px rgba(255,255,255,1));
+    cursor: pointer;
+}
+.logofront.delete {
+    display: none;
+}
+.centerblock {
+    width: 50%;
+    margin: 0 auto;
+}

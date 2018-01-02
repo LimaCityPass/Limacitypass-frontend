@@ -1,0 +1,28 @@
+.btndiscounts {
+    border-radius: 12px;
+    background: #806DF7 center no-repeat;
+    margin: 0 16% 0 16%;
+    padding: 4% 0 5% 0;
+    font-family: Quicksand, serif;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    z-index: 1;
+    position: relative;
+}
+
+.btndiscounts:hover {
+    background: #4F4ECC;
+    box-shadow: 0 4px 10px 4px #806DF7;
+}
+
+.btndiscounts:active {
+    background: #5F4ECC;
+    box-shadow: 0 10px 35px -10px #5F4ECC;
+    transform: perspective(250px) scale3d(1, 1, 1) translateY(2%);
+}
+
+.minusculas {
+    text-transform: lowercase;
+    font-size: 15px;
+}

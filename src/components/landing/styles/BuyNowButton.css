@@ -1,0 +1,59 @@
+
+
+.Button-wrapper {
+    position: relative;
+}
+
+.Button {
+    font-family: Quicksand, serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 5.5% 12% 5.5% 12%;
+    text-transform: uppercase;
+    background: #F4157E;
+    color: #F8FAFF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 10px 60px -10px #CD106E;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    transform-style: preserve-3d;
+    transform: perspective(250px) scale3d(1, 1, 1);
+    transition: all 1s cubic-bezier(0.03, 0.98, 0.52, 0.99);
+    will-change: transform, box-shadow, background;
+    outline: none;
+    position: relative;
+    z-index: 2;
+}
+
+.Button:hover {
+     background: lighten(#F4157E, 2%);
+     box-shadow: 0 8px 65px -5px #CD106E;
+     font-size: 18px;
+ }
+
+.Button:active {
+     background: #CD106E;
+     box-shadow: 0 10px 60px -10px #CD106E;
+     transform: perspective(250px) scale3d(1, 1, 1) translateY(5%);
+ }
+
+.Symbol {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: -1;
+    animation: explode .8s reverse forwards ease-in;
+}
+
+@keyframes explode {
+    from { opacity: 0; }
+    to {
+        top: 50%;
+        left: 50%;
+        opacity: 1;
+    }
+}

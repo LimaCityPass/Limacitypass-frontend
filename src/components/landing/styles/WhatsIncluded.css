@@ -1,0 +1,77 @@
+.containercontentwhatisincluded {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    width: 100%;
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .containercontentwhatisincluded {
+        background-size: 150%;
+        background-position: right bottom;
+    }
+}
+
+.withoutmarpadd {
+    margin: 0;
+    padding: 0;
+}
+
+.center-elements {
+    align-content: center;
+    display: inline-grid;
+}
+
+.imagetickets {
+    width: 85%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.divimagesWhatis {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 2% 0;
+}
+
+.textcontent {
+    font-family: Poppins, serif;
+    font-weight: 200;
+    padding: 2% 8% 2% 8%;
+    align-content: center;
+    text-align: center;
+}
+
+.titlewhatis {
+    font-family: Poppins, serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 300;
+    padding-top: 3%;
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .titlewhatis {
+        padding-top: 12%;
+        padding-bottom: 8%;
+    }
+    .imagetickets {
+        width: 70%;
+    }
+}
+
+
+.inline {
+    display: block;
+    width: 100%;
+}

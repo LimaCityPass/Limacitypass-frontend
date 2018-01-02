@@ -1,0 +1,34 @@
+<svg width="542" height="598" viewBox="0 0 542 598" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>buy_card</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1109 86)">
+<g id="buy_card">
+<g id="buy_card" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(1111 -84)" fill="#FFFFFF"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path1_fill" transform="translate(1110 73)" fill="#FFAF3B"/>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(1111 75)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(1110 366)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="1109" y="-86" width="542" height="598" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="4" dy="4"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 31C 0 13.8792 13.8792 0 31 0L 499 0C 516.121 0 530 13.8792 530 31L 530 262.943C 510.572 267.081 496 284.339 496 305C 496 325.661 510.572 342.919 530 347.057L 530 555C 530 572.121 516.121 586 499 586L 31 586C 13.8792 586 0 572.121 0 555L 0 346.831C 18.9255 342.324 33 325.305 33 305C 33 284.695 18.9255 267.676 0 263.169L 0 31Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 531 0L 531 106.943C 511.572 111.081 497 128.339 497 149C 497 169.661 511.572 186.919 531 191.057L 531 294L 0 294L 0 191.057C 19.4276 186.919 34 169.661 34 149C 34 128.339 19.4276 111.081 0 106.943L 0 0Z"/>
+<path id="path2_stroke" d="M 0 0L 3.51992 0L 3.51992 -3L 0 -3L 0 0ZM 13.5768 0L 20.6167 0L 20.6167 -3L 13.5768 -3L 13.5768 0ZM 30.6736 0L 37.7135 0L 37.7135 -3L 30.6736 -3L 30.6736 0ZM 47.7704 0L 54.8102 0L 54.8102 -3L 47.7704 -3L 47.7704 0ZM 64.8672 0L 71.907 0L 71.907 -3L 64.8672 -3L 64.8672 0ZM 81.9639 0L 89.0038 0L 89.0038 -3L 81.9639 -3L 81.9639 0ZM 99.0607 0L 106.101 0L 106.101 -3L 99.0607 -3L 99.0607 0ZM 116.157 0L 123.197 0L 123.197 -3L 116.157 -3L 116.157 0ZM 133.254 0L 140.294 0L 140.294 -3L 133.254 -3L 133.254 0ZM 150.351 0L 157.391 0L 157.391 -3L 150.351 -3L 150.351 0ZM 167.448 0L 174.488 0L 174.488 -3L 167.448 -3L 167.448 0ZM 184.545 0L 191.584 0L 191.584 -3L 184.545 -3L 184.545 0ZM 201.641 0L 208.681 0L 208.681 -3L 201.641 -3L 201.641 0ZM 218.738 0L 225.778 0L 225.778 -3L 218.738 -3L 218.738 0ZM 235.835 0L 242.875 0L 242.875 -3L 235.835 -3L 235.835 0ZM 252.932 0L 259.972 0L 259.972 -3L 252.932 -3L 252.932 0ZM 270.028 0L 277.068 0L 277.068 -3L 270.028 -3L 270.028 0ZM 287.125 0L 294.165 0L 294.165 -3L 287.125 -3L 287.125 0ZM 304.222 0L 311.262 0L 311.262 -3L 304.222 -3L 304.222 0ZM 321.319 0L 328.359 0L 328.359 -3L 321.319 -3L 321.319 0ZM 338.416 0L 345.455 0L 345.455 -3L 338.416 -3L 338.416 0ZM 355.512 0L 362.552 0L 362.552 -3L 355.512 -3L 355.512 0ZM 372.609 0L 379.649 0L 379.649 -3L 372.609 -3L 372.609 0ZM 389.706 0L 396.746 0L 396.746 -3L 389.706 -3L 389.706 0ZM 406.803 0L 413.842 0L 413.842 -3L 406.803 -3L 406.803 0ZM 423.899 0L 430.939 0L 430.939 -3L 423.899 -3L 423.899 0ZM 440.996 0L 448.036 0L 448.036 -3L 440.996 -3L 440.996 0ZM 458.093 0L 465.133 0L 465.133 -3L 458.093 -3L 458.093 0ZM 475.19 0L 482.23 0L 482.23 -3L 475.19 -3L 475.19 0ZM 492.287 0L 499.326 0L 499.326 -3L 492.287 -3L 492.287 0ZM 509.383 0L 516.423 0L 516.423 -3L 509.383 -3L 509.383 0ZM 526.48 0L 530 0L 530 -3L 526.48 -3L 526.48 0Z"/>
+</defs>
+</svg>

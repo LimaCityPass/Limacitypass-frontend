@@ -1,0 +1,21 @@
+.btnhowtouse {
+    border-radius: 30px;
+    background: #253237 center no-repeat;
+    margin: 0 15% 0 15%;
+    padding: 4% 0 5% 0;
+    font-family: Quicksand, serif;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.btnhowtouse:hover {
+    background: lighten(#253237, 2%);
+    box-shadow: 0 4px 10px 5px #2C2D3D;
+}
+
+.btnhowtouse:active {
+    background: #2C2D3D;
+    box-shadow: 0 10px 20px -10px #2C2D3D;
+    transform: perspective(250px) scale3d(1, 1, 1) translateY(3%);
+}

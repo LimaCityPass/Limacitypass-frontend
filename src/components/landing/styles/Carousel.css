@@ -1,0 +1,96 @@
+.containercarousel {
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    align-content: center;
+    width: 100%;
+    color: #333;
+    background: #806DF7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.withoutmarpadd {
+    margin: 0;
+    padding: 0;
+}
+
+.imagescarousel {
+    width: 100%;
+}
+
+.backgroundcarousel{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+    transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+}
+
+.backgroundcarousel:hover {
+    opacity: 1;
+    transform: scale(1.1) rotateZ(-2deg);
+    -moz-transform: scale(1.1) rotateZ(-2deg);
+    -webkit-transform: scale(1.1) rotateZ(-2deg);
+    -o-transform: scale(1.1) rotateZ(-2deg);
+}
+
+.divinfocarousel {
+    font-family: Poppins, serif;
+    color: white;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.infocarousel {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 360px) {
+    .infocarousel {
+        font-size: 20px;
+    }
+}
+
+.learnmorecarousel {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.block {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.block .block-caption {
+    background: rgba(0,0,0,0.5);
+    bottom: 0;
+    color: #fff;
+    display: table;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.block:hover .block-caption {
+    opacity: 1;
+}
+
+
+
