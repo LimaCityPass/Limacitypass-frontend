@@ -9,7 +9,7 @@ class ButtonDiscounts extends Component {
     render() {
         return (
             <div>
-                <div className='btndiscounts'>
+                <div className='btndiscounts unselectable'>
                     {this.name}
                     <div className='minusculas'>
                         see more

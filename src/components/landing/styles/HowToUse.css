@@ -29,6 +29,7 @@
     -ms-animation: animatedBackgroundHowto 100s linear infinite;
     -moz-animation: animatedBackgroundHowto 100s linear infinite;
     -webkit-animation: animatedBackgroundHowto 100s linear infinite;
+    z-index: 2;
 }
 
 

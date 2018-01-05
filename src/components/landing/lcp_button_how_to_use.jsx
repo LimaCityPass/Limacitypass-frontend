@@ -9,7 +9,7 @@ class ButtonHowToUse extends Component {
     render() {
         return (
             <div>
-                <div className='btnhowtouse'>
+                <div className='btnhowtouse unselectable'>
                     {this.name}
                 </div>
             </div>
