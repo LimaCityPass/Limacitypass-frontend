@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import LcpToolbar from './lcp_toolbar';
 import "./styles/Front.css"
 import {animateScroll as scroll, DirectLink, Events, Link, scrollSpy} from 'react-scroll';
+import LcpButtonSeeMore from '../../components/landing/lcp_button_seemore'
 
 //import { Grid, Row, Col } from 'react-material-responsive-grid';
 
@@ -79,6 +80,13 @@ class LcpFront extends Component {
                         <img className='logoimg' src={this.logo} style={{'height': heightLogo}}/>
                     </Link>
                 </div>
+            </div>
+            <div style={{'margin':'-75px 0 0 0'}}>
+                <Link to={'whatis'} spy={true} smooth={true} delay={0}  duration={800} offset={-25}>
+                    <LcpButtonSeeMore/>
+                </Link>
+            </div>
+            <div style={{'margin':'75px 0 0 0'}}>
             </div>
         </div>
     }

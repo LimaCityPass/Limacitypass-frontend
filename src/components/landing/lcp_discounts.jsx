@@ -3,6 +3,7 @@ import "./styles/Discounts.css";
 import { Grid, Row, Col } from 'react-material-responsive-grid';
 import ButtonDiscounts from './lcp_button_discounts';
 
+
 class Discounts extends Component {
 
     constructor(props) {
@@ -12,10 +13,20 @@ class Discounts extends Component {
         this.title = props.title;
         this.items = props.items;
         this.state = {
+            open: false,
             windowHeight: window.innerHeight,
             windowWidth: window.innerWidth
         };
         this.updateDimensions = this.updateDimensions.bind(this);
+    };
+
+    handleOpen = (e) => {
+        e.preventDefault();
+        this.setState({open: true});
+    };
+
+    handleClose = (e) => {
+        this.setState({open: false});
     };
 
     updateDimensions(e) {
@@ -43,14 +54,19 @@ class Discounts extends Component {
                             <Col hiddenDown="sm" md={12} lg={12} className='inline'>
                                 <div className='title' >{this.title}</div>
                             </Col>
-                            <Row style={{'width': '100%', 'margin-top':'30px', 'margin-left':0, 'margin-right':0, 'padding':'0 10% 3% 10%'}}>
+                            <Row style={{'width': '100%', 'margin-top':'40px', 'margin-left':0, 'margin-right':0, 'padding':'0 10% 3% 10%'}}>
                                 {this.items.map((item) =>
                                     <Col hiddenDown="sm" md={4} lg={4} xl={4} className='inline'>
                                         <div className='' style={{'width': (this.state.windowWidth * 0.25)}}>
                                             <img className='' src={item.image} style={{'width':(this.state.windowWidth * 0.21)}}></img>
                                         </div>
                                         <div className='titlediscounts' style={{'margin':'0 0 0 0 0'}}>
-                                            <ButtonDiscounts name={item.titlebutton}/>
+                                            <ButtonDiscounts
+                                                key={item.titlebutton}
+                                                name={item.titlebutton}
+                                                image={item.image}
+                                                description={item.description}
+                                            />
                                         </div>
                                     </Col>
                                 )}
@@ -73,7 +89,12 @@ class Discounts extends Component {
                                             <img className='imagesHowtouse' src={item.image} style={{'height': ((this.state.windowWidth * 0.70) * 1.46), 'width': (this.state.windowWidth * 0.70)}}></img>
                                         </div>
                                         <div className='titlediscounts'>
-                                            <ButtonDiscounts name={item.titlebutton}/>
+                                            <ButtonDiscounts
+                                                key={item.titlebutton}
+                                                name={item.titlebutton}
+                                                image={item.image}
+                                                description={item.description}
+                                            />
                                         </div>
                                     </Col>
                                 </Row>
