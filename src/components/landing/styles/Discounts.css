@@ -77,3 +77,11 @@
     display: block;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .skylight-dialog {
+        width: 80%;
+        top: 40%;
+        left: 35%;
+    }
+}

@@ -6,10 +6,19 @@
 }
 .lcp-toolbar.newcolor {
     background: RGBA(36, 50, 54, 1.00);
+    padding: 20px 0 11px 0 ;
 }
-
+@media only screen and (max-width: 600px) {
+    .lcp-toolbar.newcolor {
+        padding: 20px 0 6px 0 ;
+    }
+}
 .lcp-toolbar a {
     cursor: pointer;
+}
+
+.lcp-toolbar a:hover {
+    color: white;
 }
 .sticky {
     position: -webkit-sticky; /* Safari */
@@ -38,15 +47,14 @@
 .signin {
     background: #8171EE center no-repeat;
     background-size: 30px 30px;
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
-    margin: -15px 0 0 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 .signin:hover {
-    background-size: 30px 30px;
+    background-size: 35px 35px;
 }
 .signin:active {
     background: #5F4FC9 center no-repeat;
@@ -114,3 +122,4 @@
 .text_align {
     text-align: center;
 }
+

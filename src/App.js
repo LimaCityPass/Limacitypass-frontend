@@ -5,6 +5,8 @@ import AdminPage from './pages/admin';
 import LcpLanding from './pages/landing_page';
 import LcpLoginPage from './pages/login';
 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
 import {
     BrowserRouter as Router,
     Route,
@@ -13,13 +15,15 @@ import {
 class App extends Component {
     render() {
         return (
-            <Router>
-                <div>
-                    <Route path="/" exact component={LcpLanding}/>
-                    <Route path="/login" component={LcpLoginPage}/>
-                    <Route path="/admin" component={AdminPage}/>
-                </div>
-            </Router>
+            <MuiThemeProvider>
+                <Router>
+                    <div>
+                        <Route path="/" exact component={LcpLanding}/>
+                        <Route path="/admin" component={AdminPage}/>
+                    </div>
+                </Router>
+            </MuiThemeProvider>
+
         );
     }
 }

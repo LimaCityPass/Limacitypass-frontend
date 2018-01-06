@@ -79,7 +79,7 @@ class WhatsIncluded extends Component {
                             </Col>
                         </Row>
                     </Col>
-                    <Col hiddenUp="md" sm={12} className='col-xs-12 ' style={{'padding':0}}>
+                    <Col hiddenUp="md" sm={12} className='col-xs-12 ' style={{'padding':'60px 0 0 0'}}>
                         <Row  className='withoutmarpadd' style={{'margin':0, 'padding':0}}>
                             <Row className='containercontentwhatisincluded' style={{'padding':0, 'backgroundImage': `url(${this.background}`}}>
                                 <Col hiddenUp="md" sm={12} className='col-xs-12' style={{'padding-left':0, 'padding-right':0}}>

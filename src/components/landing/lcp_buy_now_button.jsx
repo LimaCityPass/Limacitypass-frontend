@@ -10,7 +10,7 @@ class LcpBuyNowButton extends Component {
 
     render() {
         return (
-            <div>
+            <div className='unselectable'>
                 <div class="Button-wrapper">
                     <button class="Button">{this.name}</button>
                 </div>
