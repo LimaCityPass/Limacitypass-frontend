@@ -3,6 +3,7 @@ import './App.css';
 
 import AdminPage from './pages/admin';
 import LcpLanding from './pages/landing_page';
+import LcpLoginPage from './pages/login';
 
 import {
     BrowserRouter as Router,
@@ -15,6 +16,7 @@ class App extends Component {
             <Router>
                 <div>
                     <Route path="/" exact component={LcpLanding}/>
+                    <Route path="/login" component={LcpLoginPage}/>
                     <Route path="/admin" component={AdminPage}/>
                 </div>
             </Router>

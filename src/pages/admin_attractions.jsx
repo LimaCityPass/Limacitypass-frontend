@@ -5,7 +5,7 @@ import glamorous from 'glamorous'
 
 import {Button, Col, Divider, Input, message, Row, Table, Tag, Tooltip, Modal} from 'antd';
 
-import LcpAttractionSearch from '../components/lcp_attraction_search';
+import LcpAttractionSearch from '../components/admin/lcp_attraction_search';
 
 import DeleterMutation from '../components/admin/lcp_delete_any'
 

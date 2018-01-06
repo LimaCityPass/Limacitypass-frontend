@@ -9,14 +9,14 @@ import BackgroundImage from '../assets/limaplaza.png'
 import LcpLogo from '../assets/limalogowhite.svg'
 import BackgroundWhatsIncluded from '../assets/whatsincluded.svg'
 import TicketsImage from '../assets/cards2.svg'
-import BacgroundHowtoUseDesktop from '../assets/background_desktop_howto.svg'
+import BackgroundHowToUseDesktop from '../assets/background_desktop_howto.svg'
 import BackgroundHowToUseMovil from '../assets/background_movil_howto.svg'
 import Step1 from '../assets/tablet.png'
 import Step2 from '../assets/qr.png';
 
 import Step3 from '../assets/user.png';
 import Step4 from '../assets/heart.png';
-import IloveLima from '../assets/i_3lima.svg';
+import ILoveLima from '../assets/i_3lima.svg';
 import BackgroundDiscountsDesktop from '../assets/background_desktop_discounts.svg'
 import BackgroundDiscountsMovil from '../assets/background_movil_discounts.svg'
 import Adventure from '../assets/exp4.png'
@@ -165,11 +165,11 @@ class LcpLanding extends Component {
                 <div id='howto'>
                     <LcpHowToUse
                         items={this.howtouseImages}
-                        backgroundDesktop={BacgroundHowtoUseDesktop}
+                        backgroundDesktop={BackgroundHowToUseDesktop}
                         backgroundMovil={BackgroundHowToUseMovil}
                         title={this.howto_title}
                         hashtag={this.hashtag}
-                        ilovelimaimage={IloveLima}
+                        ilovelimaimage={ILoveLima}
                         hashtagcontent={this.hashtagcontent}/>
                 </div>
 
