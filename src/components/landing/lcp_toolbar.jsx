@@ -81,7 +81,7 @@ class LcpToolbar extends Component {
             backgroundToolbar.push('newcolor');
         }
         return (
-            <div className='sticky'>
+            <div className='sticky unselectable'>
             <Row className={backgroundToolbar.join(' ')} >
                 <Col xs={12} sm={12} md={12} lg={12} className='hidden-sm-down'>
                     <Row className='text_align'>
