@@ -89,15 +89,18 @@ class LcpLanding extends Component {
         this.discounts = [
             {
                 image: Adventure,
-                titlebutton: 'Adventure'
+                titlebutton: 'Adventure',
+                description: 'Lorem ipsum dolor sit amet, albucius consetetur sed id, ut nonumes docendi nec. Duo cu utinam mollis liberavisse. Ne mei omnes ceteros consequuntur, cu audiam hendrerit efficiendi vim, sit ad electram periculis scripserit. Antiopam platonem ei per, nostro maiorum assentior per no. Tota discere aliquam vim an, eos illum quidam nominati et, quot dicat appetere qui cu. Epicuri voluptatum qui ex.'
             },
             {
                 image: Gastronomy,
-                titlebutton: 'Gastronomy'
+                titlebutton: 'Gastronomy',
+                description: 'Lorem ipsum dolor sit amet, albucius consetetur sed id, ut nonumes docendi nec. Duo cu utinam mollis liberavisse. Ne mei omnes ceteros consequuntur, cu audiam hendrerit efficiendi vim, sit ad electram periculis scripserit. Antiopam platonem ei per, nostro maiorum assentior per no. Tota discere aliquam vim an, eos illum quidam nominati et, quot dicat appetere qui cu. Epicuri voluptatum qui ex.'
             },
             {
                 image: NightLife,
-                titlebutton: 'Night Life'
+                titlebutton: 'Night Life',
+                description: 'Lorem ipsum dolor sit amet, albucius consetetur sed id, ut nonumes docendi nec. Duo cu utinam mollis liberavisse. Ne mei omnes ceteros consequuntur, cu audiam hendrerit efficiendi vim, sit ad electram periculis scripserit. Antiopam platonem ei per, nostro maiorum assentior per no. Tota discere aliquam vim an, eos illum quidam nominati et, quot dicat appetere qui cu. Epicuri voluptatum qui ex.'
             }
         ];
         this.footercontent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non blandit tellus, sed iaculis odio. Nullam convallis leo at porta molestie. Aliquam sagittis erat vitae est mollis tristique. '

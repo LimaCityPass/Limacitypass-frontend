@@ -11,7 +11,9 @@
 
 .btnhowtouse:hover {
     background: lighten(#253237, 2%);
-    box-shadow: 0 4px 10px 5px #2C2D3D;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(44, 45, 61,0.48);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(44, 45, 61,0.48);
+    box-shadow: 0px 0px 17px 0px rgba(44, 45, 61,0.48);
 }
 
 .btnhowtouse:active {

@@ -16,6 +16,10 @@
 .lcp-toolbar a {
     cursor: pointer;
 }
+
+.lcp-toolbar a:hover {
+    color: white;
+}
 .sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;

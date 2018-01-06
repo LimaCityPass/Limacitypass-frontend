@@ -76,7 +76,7 @@ class LcpToolbar extends Component {
     render(){
         let colorToolbarClass = ['shortcut-toolbar'];
         let backgroundToolbar = ['lcp-toolbar'];
-        if(this.state.scrollPosition > (window.innerHeight-50)) {
+        if(this.state.scrollPosition > (window.innerHeight-100)) {
             colorToolbarClass.push('othercolor');
             backgroundToolbar.push('newcolor');
         }
@@ -93,7 +93,7 @@ class LcpToolbar extends Component {
                                              sm={12/elem.length}
                                              xs={12/elem.length}
                                              style={{'margin':'0 0 0 0', 'padding':'0 0 0 0'}}>
-                                            <Link className={colorToolbarClass.join(' ')} to={elem.to} spy={true} smooth={true} delay={0} duration={800} offset={-15}>{elem.title}</Link>
+                                            <Link className={colorToolbarClass.join(' ')} to={elem.to} spy={true} smooth={true} delay={0} duration={800} offset={-25}>{elem.title}</Link>
                                         </Col>
                                 ))}
                             </Row>
