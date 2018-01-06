@@ -4,9 +4,9 @@ import {Link, Route, Switch} from 'react-router-dom'
 
 import {Icon, Layout, Menu} from 'antd';
 
-import AdminUsersPage from './admin-users'
-import AdminAttractionsPage from './admin-attractions'
-import AdminTicketsPage from './admin-tickets'
+import AdminUsersPage from './admin_users'
+import AdminAttractionsPage from './admin_attractions'
+import AdminTicketsPage from './admin_tickets'
 
 import './styles/admin.css'
 

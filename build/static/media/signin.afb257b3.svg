@@ -1,0 +1,28 @@
+<svg width="48" height="48" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>signin</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-579 464)">
+<g id="signin">
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(579 -464)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(579 -464)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path2_fill" transform="translate(596 -457)" fill="#FFFFFF"/>
+</g>
+<g id="Rectangle 2">
+<use xlink:href="#path3_fill" transform="translate(590 -440)" fill="#FFF7F7"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 48 24C 48 37.2548 37.2548 48 24 48C 10.7452 48 0 37.2548 0 24C 0 10.7452 10.7452 0 24 0C 37.2548 0 48 10.7452 48 24Z"/>
+<path id="path1_stroke_2x" d="M 45 24C 45 35.598 35.598 45 24 45L 24 51C 38.9117 51 51 38.9117 51 24L 45 24ZM 24 45C 12.402 45 3 35.598 3 24L -3 24C -3 38.9117 9.08831 51 24 51L 24 45ZM 3 24C 3 12.402 12.402 3 24 3L 24 -3C 9.08831 -3 -3 9.08831 -3 24L 3 24ZM 24 3C 35.598 3 45 12.402 45 24L 51 24C 51 9.08831 38.9117 -3 24 -3L 24 3Z"/>
+<path id="path2_fill" d="M 15 7.5C 15 11.6421 11.6421 15 7.5 15C 3.35786 15 0 11.6421 0 7.5C 0 3.35786 3.35786 0 7.5 0C 11.6421 0 15 3.35786 15 7.5Z"/>
+<path id="path3_fill" d="M 13.1412 0.00688476C 13.2024 0.00159049 13.2466 0.00235689 13.3076 0.00961462C 14.4168 0.14148 26.2649 1.66093 27 6.4806C 27 6.4806 27 6.4806 27 6.4806C 27.7712 11.5373 20.2551 15.4522 14.8776 15.9522C 14.8776 15.9522 14.8776 15.9522 14.8776 15.9522C 9.5 16.4522 -0.000134523 12.9612 1.42867e-09 6.97911C 1.42801e-09 6.97911 1.42933e-09 6.97911 1.42867e-09 6.97911C 0.000128264 1.2755 12.0219 0.103634 13.1412 0.00688476Z"/>
+</defs>
+</svg>
