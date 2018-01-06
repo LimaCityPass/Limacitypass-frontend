@@ -89,7 +89,12 @@ class Discounts extends Component {
                                             <img className='imagesHowtouse' src={item.image} style={{'height': ((this.state.windowWidth * 0.70) * 1.46), 'width': (this.state.windowWidth * 0.70)}}></img>
                                         </div>
                                         <div className='titlediscounts'>
-                                            <ButtonDiscounts name={item.titlebutton}/>
+                                            <ButtonDiscounts
+                                                key={item.titlebutton}
+                                                name={item.titlebutton}
+                                                image={item.image}
+                                                description={item.description}
+                                            />
                                         </div>
                                     </Col>
                                 </Row>
