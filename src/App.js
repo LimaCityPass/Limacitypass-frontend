@@ -20,6 +20,7 @@ class App extends Component {
                     <div>
                         <Route path="/" exact component={LcpLanding}/>
                         <Route path="/admin" component={AdminPage}/>
+                        <Route path="/login" component={LcpLoginPage}/>
                     </div>
                 </Router>
             </MuiThemeProvider>
