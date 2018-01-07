@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import Signin from '../../assets/signin.svg'
 import BuyNowButton from './lcp_buy_now_button'
 
-import DropDownMenu from 'material-ui/DropDownMenu';
+import MenuToolbar from './lcp_menu_toolbar'
 import MenuItem from 'material-ui/MenuItem';
 import IconMenu from 'material-ui/IconMenu';
 import IconButton from 'material-ui/IconButton';
@@ -82,6 +82,7 @@ class LcpToolbar extends Component {
         }
         return (
             <div className='sticky unselectable'>
+                <MenuToolbar elements={this.elements}/>
             <Row className={backgroundToolbar.join(' ')} >
                 <Col xs={12} sm={12} md={12} lg={12} className='hidden-sm-down'>
                     <Row className='text_align'>

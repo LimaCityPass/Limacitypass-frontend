@@ -52,7 +52,7 @@ class SimpleSlider extends Component {
 
     render () {
         return (
-            <div className='containercarousel' style={{'height':this.otherheight}}>
+            <div className='containercarousel' style={{'height':'314.09px'}}>
             <Slider {...this.settings} className='withoutmarpadd'>
                 {this.items.map((item) =>
                     <a href="#">
